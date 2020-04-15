@@ -9,6 +9,7 @@ set :environment, :test
 class MyAppTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
+  # SINATRA app to handle mock request
   def app
     Sinatra::Application
   end
