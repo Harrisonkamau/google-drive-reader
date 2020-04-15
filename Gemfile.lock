@@ -8,6 +8,8 @@ GEM
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     ruby2_keywords (0.0.2)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
@@ -29,6 +31,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rack-test
   sinatra
   sinatra-reloader
 

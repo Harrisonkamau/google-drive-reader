@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['APP_ENV'] = 'development'
+
 require 'sinatra'
 require 'sinatra/reloader' if development?
 
@@ -8,11 +10,8 @@ get '/' do
 end
 
 get '/status' do
-  response_obj = {
-    version: '1.0',
+  {
     name: 'Google Drive Reader',
-    env: 'development'
-  }
-
-  response_obj.to_s
+    version: '1.0'
+  }.to_s
 end
