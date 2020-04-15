@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.7'
 
-gem 'google-api-client', '~> 0.34'
+gem 'google_drive'
 gem 'rack-test'
 gem 'rubocop', require: false
 gem 'sinatra'

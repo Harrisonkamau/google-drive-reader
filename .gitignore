@@ -1,2 +1,4 @@
 # Google API app creds
-config.json
+client_secrets.json
+.env
+.DS_Store
